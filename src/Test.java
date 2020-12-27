@@ -14,6 +14,7 @@ public class Test {
         for(User user:users){
             System.out.println("用户名:" + user.getUsername());
             System.out.println("密码:" + user.getPassword());
+            System.out.println("电话" + user.getPhone());
         }
         System.out.print("请输入用户名:");
         Scanner sc=new Scanner(System.in);
